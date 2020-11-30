@@ -8,7 +8,8 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.annotation.Import;
 
 /**
- * @author xiaohe
+ * @author EvanYang
+ * @since 2020-11-23
  */
 @MapperScan("com.xh.mapper")
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})

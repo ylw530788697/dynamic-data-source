@@ -10,8 +10,8 @@ import java.util.Map;
  * 动态数据源
  * determineCurrentLookupKey() 方法决定使用哪个数据源
  *
- * @author xiaohe
- * @version V1.0.0
+ * @author EvanYang
+ * @since 2020-11-23
  */
 public class DynamicDataSource extends AbstractRoutingDataSource {
 

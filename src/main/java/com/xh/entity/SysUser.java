@@ -4,6 +4,8 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.time.LocalDateTime;
 import java.io.Serializable;
+import java.util.Date;
+
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -16,8 +18,8 @@ import lombok.experimental.Accessors;
  * 系统用户
  * </p>
  *
- * @author xiaohe
- * @since 2019-06-04
+ * @author EvanYang
+ * @since 2020-11-23
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -53,7 +55,7 @@ public class SysUser implements Serializable {
     private Long createUserId;
 
     @ApiModelProperty(value = "创建时间")
-    private LocalDateTime createTime;
+    private Date createTime;
 
 
 }

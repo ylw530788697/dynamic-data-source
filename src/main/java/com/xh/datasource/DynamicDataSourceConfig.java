@@ -12,8 +12,8 @@ import java.util.Map;
 
 /**
  * 配置多数据源
- * @author xiaohe
- * @version V1.0.0
+ * @author EvanYang
+ * @since 2020-11-23
  */
 @Configuration
 public class DynamicDataSourceConfig {

@@ -7,8 +7,8 @@ import java.lang.annotation.*;
  * <p/>
  * 指定要使用的数据源
  *
- * @author xiaohe
- * @version V1.0.0
+ * @author EvanYang
+ * @since 2020-11-23
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

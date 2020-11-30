@@ -3,8 +3,8 @@ package com.xh.datasource;
 /**
  * 增加多数据源，在此配置
  *
- * @author xiaohe
- * @version V1.0.0
+ * @author EvanYang
+ * @since 2020-11-23
  */
 public interface DataSourceNames {
 

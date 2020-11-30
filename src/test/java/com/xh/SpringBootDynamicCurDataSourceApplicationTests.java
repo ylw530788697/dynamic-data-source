@@ -26,8 +26,10 @@ public class SpringBootDynamicCurDataSourceApplicationTests {
     @Test
     public void test() {
         SysUser user = userService.findUserByFirstDb(1);
-        log.info("第一个数据库 : [{}]", user.toString());
+        System.out.println(user.toString());
+        //log.info("第一个数据库 : [{}]", user.toString());
         SysUser user2 = userService.findUserBySecondDb(1);
-        log.info("第二个数据库 : [{}]", user2.toString());
+        //log.info("第二个数据库 : [{}]", user2.toString());
+        System.out.println(user2.toString());
     }
 }
